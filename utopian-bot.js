@@ -59,7 +59,7 @@ conn.once('open', function ()
   const MIN_VOTE_QUAL = 15;
   const MAX_INFLATION = 1.4;
   const VOTE_THRESHOLD = 8;
-  const category_max_votes=[{"cat":"development","max_vote":275},{"cat":"bug-hunting","max_vote":175},{"cat":"ideas","max_vote":200},{"cat":"translations","max_vote":150},{"cat":"others","max_vote":200}];
+  const category_max_votes=[{"cat":"development","max_vote":300},{"cat":"bug-hunting","max_vote":200},{"cat":"ideas","max_vote":200},{"cat":"translations","max_vote":100},{"cat":"others","max_vote":200}];
   var processed_posts=[];
   const query = {
     reviewed: true,
@@ -347,7 +347,6 @@ conn.once('open', function ()
                                         'arama',
                                         'make-a-whale',
                                         'cnbuddy',
-                                        'gentlebot',
                                         'glitterbooster',
                                         'steemedia',
                                         'wahyurahadiann',
@@ -363,7 +362,8 @@ conn.once('open', function ()
                                         'myday',
                                         'gindor',
                                         'bp423',
-                                        'boostupvote'
+                                        'boostupvote',
+                                        'davidding' 
                                       ];
                                       const reputation = steem.formatter.reputation(account.reputation);
 
