@@ -300,6 +300,7 @@ conn.once('open', function ()
                                         'ilvacca',
                                         'inchonbitcoin',
                                         'ipuffyou',
+                                        'justyy',
                                         'libertyteeth',
                                         'lovejuice',
                                         'mahabrahma',
