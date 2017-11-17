@@ -663,9 +663,8 @@ conn.once('open', function ()
                                       }
 
                                       vote = Math.round(vote);
-                                      if(vote <= 0) vote = 1;
-                                      if(vote > 60) vote = 60;
-
+                                      if(vote < 1) vote = 1;
+                                      if(vote > 50) vote = 50;
 
 
                                       var cat = post.json_metadata.type.replace('task-', ''); //put announcements with their corresponding category
